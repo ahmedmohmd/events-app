@@ -1,5 +1,4 @@
 import type { GetStaticProps, NextPage } from "next";
-import Image from "next/image";
 import SectionHeading from "../components/core/SectionHeading";
 import EventsList from "../components/EventsList";
 import { getFeaturedEvents } from "../utils/db";
@@ -13,15 +12,13 @@ const HomePage: NextPage<HomePageProps> = ({ events }) => {
   return (
     <div>
       <div className="relative mb-16">
-        <div className="absolute inset-0 object-cover w-full !h-full">
-          <Image
-            objectFit="cover"
-            width={1905}
-            height={700}
-            src="/images/festival.jpg"
-            alt="Festival Image"
-          />
-        </div>
+        <img
+          width={1905}
+          height={700}
+          src="/images/festival.jpg"
+          alt="Festival Image"
+          className="absolute inset-0 object-cover w-full !h-full"
+        />
         <div className="relative bg-orange-500/80 bg-opacity-90 sm:h-[400px] lg:h-[500px] xl:h-[700px]">
           <svg
             className="absolute inset-x-0 text-[#fff7ee] -bottom-1"

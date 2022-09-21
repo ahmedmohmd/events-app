@@ -1,4 +1,3 @@
-// import { NextPage } from "next";
 import { FC, Fragment } from "react";
 import EventsList from "../../components/EventsList";
 import { getFilteredEvents } from "../../utils/db";
@@ -15,8 +14,6 @@ const FilteredEventsPage: FC<FilteredEventsPageProps> = ({ events }) => {
 
   return (
     <Fragment>
-      <h1>Events Page</h1>
-
       <EventsList events={events} />
     </Fragment>
   );
