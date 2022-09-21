@@ -1,0 +1,83 @@
+[
+  {
+    "id": "e1",
+    "title": "How to Be Frontend",
+    "description": "Programming is the most Job that Famous in the Last Centry.",
+    "image": "/images/frontend.jpg",
+    "date": "3-7-2015",
+    "location": "NewYrok City",
+    "featured": true
+  },
+  {
+    "id": "e2",
+    "title": "Freedom",
+    "description": "In This Event, We Will Talk About Freedom, What Exactly It is? And Why We are Not Completely Free? And All Our Ideas?",
+    "image": "/images/freedom.jpg",
+    "date": "1-10-2019",
+    "location": "Egypt Qina-Qift",
+    "featured": true
+  },
+  {
+    "id": "e3",
+    "title": "Depression",
+    "description": "IN this Event We Will Discuss and Talk About Why Depression Happened?, And How We can Avoid It?",
+    "image": "/images/depression.jpg",
+    "date": "2-11-2025",
+    "location": "Egypt Alexandria",
+    "featured": true
+  },
+  {
+    "id": "e4",
+    "title": "How to Be Frontend",
+    "description": "Programming is the most Job that Famous in the Last Centry.",
+    "image": "/images/frontend.jpg",
+    "date": "3-7-2015",
+    "location": "NewYrok City",
+    "featured": true
+  },
+  {
+    "id": "e5",
+    "title": "Freedom",
+    "description": "In This Event, We Will Talk About Freedom, What Exactly It is? And Why We are Not Completely Free? And All Our Ideas?",
+    "image": "/images/freedom.jpg",
+    "date": "1-10-2019",
+    "location": "Egypt Qina-Qift",
+    "featured": true
+  },
+  {
+    "id": "e6",
+    "title": "Depression",
+    "description": "IN this Event We Will Discuss and Talk About Why Depression Happened?, And How We can Avoid It?",
+    "image": "/images/depression.jpg",
+    "date": "2-11-2025",
+    "location": "Egypt Alexandria",
+    "featured": true
+  },
+  {
+    "id": "e7",
+    "title": "How to Be Frontend",
+    "description": "Programming is the most Job that Famous in the Last Centry.",
+    "image": "/images/frontend.jpg",
+    "date": "3-7-2015",
+    "location": "NewYrok City",
+    "featured": true
+  },
+  {
+    "id": "e8",
+    "title": "Freedom",
+    "description": "In This Event, We Will Talk About Freedom, What Exactly It is? And Why We are Not Completely Free? And All Our Ideas?",
+    "image": "/images/freedom.jpg",
+    "date": "1-10-2019",
+    "location": "Egypt Qina-Qift",
+    "featured": true
+  },
+  {
+    "id": "e9",
+    "title": "Depression",
+    "description": "IN this Event We Will Discuss and Talk About Why Depression Happened?, And How We can Avoid It?",
+    "image": "/images/depression.jpg",
+    "date": "2-11-2025",
+    "location": "Egypt Alexandria",
+    "featured": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "e1",
+    "title": "Event 1",
+    "description": "Hello From Event One",
+    "location": "Egypt-Cairo",
+    "date": "10-4-2021",
+    "image": "/images/e1.png",
+    "featured": false
+  },
+  {
+    "id": "e2",
+    "title": "Event 2",
+    "description": "Hello From Event Two",
+    "location": "Egypt-Qina",
+    "date": "2-3-2020",
+    "image": "/images/e2.png",
+    "featured": true
+  },
+  {
+    "id": "e3",
+    "title": "Event 3",
+    "description": "Hello From Event Three",
+    "location": "Egypt-Alex",
+    "date": "2-7-2019",
+    "image": "/images/e3.png",
+    "featured": false
+  },
+  {
+    "id": "e4",
+    "title": "Event 4",
+    "description": "Hello From Event Four",
+    "location": "Egypt-Giza",
+    "date": "2-3-2020",
+    "image": "/images/e4.png",
+    "featured": true
+  }
+]

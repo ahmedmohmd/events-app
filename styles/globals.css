@@ -1,26 +1,19 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: #2f2e37;
+  background-color: white;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.active:hover {
+  color: #2f2e37 !important;
+  background-color: white !important;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.event:hover > div {
+  opacity: 1;
 }
