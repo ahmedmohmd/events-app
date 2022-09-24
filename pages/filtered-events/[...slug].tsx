@@ -1,4 +1,5 @@
 import { FC, Fragment } from "react";
+import SectionHeading from "../../components/core/SectionHeading";
 import EventsList from "../../components/EventsList";
 import { getFilteredEvents } from "../../utils/db";
 import type { Event } from "../../utils/types";
@@ -13,9 +14,17 @@ const FilteredEventsPage: FC<FilteredEventsPageProps> = ({ events }) => {
   }
 
   return (
-    <Fragment>
+    <div className="pt-16">
+      <SectionHeading>
+        <span className="text-3xl lg:text-4xl text-slate-900/90">
+          Filtered{" "}
+          <span className="text-3xl lg:text-4xl text-orange-600/90">
+            Events
+          </span>
+        </span>
+      </SectionHeading>
       <EventsList events={events} />
-    </Fragment>
+    </div>
   );
 };
 

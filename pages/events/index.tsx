@@ -4,6 +4,7 @@ import EventsList from "../../components/EventsList";
 import SelectList from "../../components/SelectList";
 import { getAllData } from "../../utils/db";
 import type { Event } from "../../utils/types";
+import SectionHeading from "../../components/core/SectionHeading";
 
 interface EventsPageProps {
   events: Event[];
@@ -16,7 +17,12 @@ const EventsPage: NextPage<EventsPageProps> = ({ events }) => {
 
   return (
     <Fragment>
-      <SelectList />
+      <div className="container flex flex-col-reverse items-center justify-between w-full p-4 mx-auto md:flex-row">
+        <SectionHeading>
+          <span className="text-3xl lg:text-4xl text-slate-900/90">Events</span>
+        </SectionHeading>
+        <SelectList />
+      </div>
       <EventsList events={events} />
     </Fragment>
   );

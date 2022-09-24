@@ -26,12 +26,19 @@ const NavBar: FC = () => {
                 className="w-10 h-10"
                 alt="Website Logo"
               />
-              <span className="text-xl font-bold text-white w-52">Events</span>
+              <span className="w-40 text-xl font-bold text-white">Events</span>
             </a>
           </Link>
           <nav className="flex items-center justify-center gap-3 text-base md:ml-auto">
             <NavLink
-              styleName="p-[13px] font-semibold duration-300 rounded-xl bg-transparent text-white hover:bg-slate-800/90"
+              styleName="p-[10px] md:p-[13px] font-semibold duration-300 rounded-xl bg-transparent text-white hover:bg-slate-800/90"
+              href={"/"}
+              activePath={"/"}
+            >
+              Home
+            </NavLink>
+            <NavLink
+              styleName="p-[10px] md:p-[13px] font-semibold duration-300 rounded-xl bg-transparent text-white hover:bg-slate-800/90"
               href={"/events"}
               activePath={"/events"}
             >
