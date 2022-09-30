@@ -3,6 +3,7 @@ import SectionHeading from "../../components/core/SectionHeading";
 import EventsList from "../../components/EventsList";
 import { getFilteredEvents } from "../../utils/db";
 import type { Event } from "../../utils/types";
+import ErrorPage from "../404";
 
 interface FilteredEventsPageProps {
   events: Event[];
@@ -10,7 +11,7 @@ interface FilteredEventsPageProps {
 
 const FilteredEventsPage: FC<FilteredEventsPageProps> = ({ events }) => {
   if (events.length === 0) {
-    return <h1>Sorry Ther is No Events Found!</h1>;
+    return <ErrorPage />;
   }
 
   return (

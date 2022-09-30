@@ -10,7 +10,7 @@ const Footer: FC = () => {
   return (
     <footer
       className={
-        "w-full text-white  body-font " +
+        "w-full z-30 text-white  body-font " +
         (pathname === "/" ? "bg-orange-600/90" : "bg-slate-900/90")
       }
     >
