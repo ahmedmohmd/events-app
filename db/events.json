@@ -28,56 +28,56 @@
   },
   {
     "id": "e4",
-    "title": "How to Be Frontend",
-    "description": "Programming is the most Job that Famous in the Last Centry.",
-    "image": "/images/frontend.jpg",
-    "date": "3-7-2015",
-    "location": "NewYrok City",
+    "title": "How to be a Good Engineer?",
+    "description": "Engineering is one of the most important field in The World, ENgineers is the brain of the World, They have Creativity and the are very Intelligant People, So in this Event we will talk about how to be a good Engineer.",
+    "image": "/images/engineering.jpg",
+    "date": "3-7-2023",
+    "location": "Cairo - Egypt",
     "featured": true
   },
   {
     "id": "e5",
-    "title": "Freedom",
-    "description": "In This Event, We Will Talk About Freedom, What Exactly It is? And Why We are Not Completely Free? And All Our Ideas?",
-    "image": "/images/freedom.jpg",
+    "title": "What is Hacking && Cyper Security??",
+    "description": "In This Event, We Will Talk About Hacking and How you can be a Professional Hacker os Pentration Tester.",
+    "image": "/images/hacking.jpg",
     "date": "1-10-2019",
-    "location": "Egypt Qina-Qift",
+    "location": "Egypt - Qina-Qift",
     "featured": true
   },
   {
     "id": "e6",
-    "title": "Depression",
-    "description": "IN this Event We Will Discuss and Talk About Why Depression Happened?, And How We can Avoid It?",
-    "image": "/images/depression.jpg",
+    "title": "Artifficial Intelligance",
+    "description": "AI is one of the most fileds that will grow in the Futer, So In this Event we will talk about how can you be ready to be a Professional AI Engineer.",
+    "image": "/images/ai.jpg",
     "date": "2-11-2025",
-    "location": "Egypt Alexandria",
+    "location": "Egypt - Alexandria",
     "featured": true
   },
   {
     "id": "e7",
-    "title": "How to Be Frontend",
-    "description": "Programming is the most Job that Famous in the Last Centry.",
-    "image": "/images/frontend.jpg",
-    "date": "3-7-2015",
+    "title": "How to be a Good Designer?",
+    "description": "Designers have a rare mentality, the have creativity, So in this Event we will talk about how you can be a good Designer.",
+    "image": "/images/designing.jpg",
+    "date": "3-7-2023",
     "location": "NewYrok City",
     "featured": true
   },
   {
     "id": "e8",
-    "title": "Freedom",
-    "description": "In This Event, We Will Talk About Freedom, What Exactly It is? And Why We are Not Completely Free? And All Our Ideas?",
-    "image": "/images/freedom.jpg",
+    "title": "What is Cryptocurrency?",
+    "description": "In This Event, We Will Talk About the history of Cryptocurrency, What is it? and How we can deal with it.",
+    "image": "/images/cryptocurrency.jpg",
     "date": "1-10-2019",
     "location": "Egypt Qina-Qift",
     "featured": true
   },
   {
     "id": "e9",
-    "title": "Depression",
-    "description": "IN this Event We Will Discuss and Talk About Why Depression Happened?, And How We can Avoid It?",
-    "image": "/images/depression.jpg",
-    "date": "2-11-2025",
-    "location": "Egypt Alexandria",
-    "featured": true
+    "title": "Crativity && Critical Thinking",
+    "description": "Crativity and Critical Thinking are the gold skills in 20th century, SO in this Event we will talk about how can you think by the right way.",
+    "image": "/images/creativity.jpg",
+    "date": "2-11-2023",
+    "location": "Egypt - Alexandria",
+    "featured": false
   }
 ]

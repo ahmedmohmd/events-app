@@ -8,7 +8,7 @@ interface EventsListProps {
 
 const EventsList: FC<EventsListProps> = ({ events }) => {
   return (
-    <div className="container grid gap-5 px-4 py-10 mx-auto md:grid-cols-2 lg:grid-cols-3">
+    <div className="container grid gap-5 px-4 py-10 mx-auto md:grid-cols-2 lg:grid-cols-3 mb-16">
       {events.map((event: Event) => {
         return (
           <div key={event.id}>

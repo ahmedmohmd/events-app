@@ -32,7 +32,9 @@ const SelectList: FC = () => {
           className="flex items-center justify-center w-20 h-10 font-semibold text-orange-600 border-2 rounded-lg outline-none focus:border-orange-500 border-slate-300"
         >
           {months.map((month) => (
-            <option value={month.toString()}>{month}</option>
+            <option key={month} value={month.toString()}>
+              {month}
+            </option>
           ))}
         </select>
       </div>
@@ -45,7 +47,9 @@ const SelectList: FC = () => {
           className="flex items-center justify-center w-20 h-10 font-semibold text-orange-600 border-2 rounded-lg outline-none focus:border-orange-500 border-slate-300"
         >
           {years.map((year) => (
-            <option value={year.toString()}>{year}</option>
+            <option key={year} value={year.toString()}>
+              {year}
+            </option>
           ))}
         </select>
       </div>

@@ -7,7 +7,9 @@ interface EventPageProps {
   comments: Comment[];
 }
 
-const EventsPage: NextPage<EventPageProps> = ({ event }) => {
+const EventsPage: NextPage<EventPageProps> = ({ event, comments }) => {
+  console.log(comments);
+
   return (
     <div className="relative w-full h-screen ">
       <div className="w-full justify-center items-center absolute z-20 -translate-x-1/2 top-[5%] left-1/2 flex flex-col gap-5">
