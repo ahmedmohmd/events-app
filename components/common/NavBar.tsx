@@ -47,6 +47,7 @@ const NavBar: FC = () => {
             <a
               href="https://github.com/ahmedmohmd/events-app"
               target="_blank"
+              rel="noreferrer"
               className="items-center justify-center hidden pt-3 border-t-2 md:flex project-link sm:pt-0 sm:pl-3 sm:border-l-2 sm:border-t-0 border-slate-200/50"
             >
               <div className="p-3 duration-300 rounded-full hover:bg-slate-800/90">

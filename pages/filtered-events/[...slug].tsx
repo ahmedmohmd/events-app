@@ -1,4 +1,4 @@
-import { FC, Fragment } from "react";
+import { FC } from "react";
 import SectionHeading from "../../components/core/SectionHeading";
 import EventsList from "../../components/EventsList";
 import { getFilteredEvents } from "../../utils/db";
